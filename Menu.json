@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "Name": "Fruid Salad",
+    "Description": "Consectetur adipisicing elit. <br class='br2'>  Soluta, <br class='br1'> impedit, saepe.",
+    "image": "../Menu-images/blog-1.jpeg",
+    "Price": "10.00",
+    "Cardimg": "images/8d233f20-79fc-4a95-aa98-134cf2183a1b.svg",
+    "Category": "Desserts"
+  },
+  {
+    "id": 2,
+    "Name": "Pancakes",
+    "Description": "Consectetur adipisicing elit. <br class='br2'>  Soluta, <br class='br1'> impedit, saepe.",
+    "image": "../images/blog-5.jpg.webp",
+    "Price": "3.50",
+    "Cardimg": "images/8d233f20-79fc-4a95-aa98-134cf2183a1b.svg",
+    "Category": "Desserts"
+  },
+  {
+    "id": 3,
+    "Name": "Casserole",
+    "Description": "Consectetur adipisicing elit. <br class='br2'>  Soluta, <br class='br1'> impedit, saepe.",
+    "image": "../images/gallery-i-6.jpg.jpeg",
+    "Price": "4.99",
+    "Cardimg": "images/8d233f20-79fc-4a95-aa98-134cf2183a1b.svg",
+    "Category": "Dishes"
+  },
+  {
+    "id": 4,
+    "Name": "King burger",
+    "Description": "Consectetur adipisicing elit. <br class='br2'>  Soluta, <br class='br1'> impedit, saepe.",
+    "image": "../images/gallery-i-2.jpg.jpeg",
+    "Price": "1.99",
+    "Cardimg": "images/8d233f20-79fc-4a95-aa98-134cf2183a1b.svg",
+    "Category": "Dishes"
+  },
+  {
+    "id": 5,
+    "Name": "Bear",
+    "Description": "Consectetur adipisicing elit. <br class='br2'>  Soluta, <br class='br1'> impedit, saepe.",
+    "image": "../Menu-images/drink2-700x456.jpg.webp",
+    "Price": "20.99",
+    "Cardimg": "images/8d233f20-79fc-4a95-aa98-134cf2183a1b.svg",
+    "Category": "Drinks"
+  },
+  {
+    "id": 6,
+    "Name": "Juices",
+    "Description": "Consectetur adipisicing elit. <br class='br2'>  Soluta, <br class='br1'> impedit, saepe.",
+    "image": "../images/gallery-i-5.jpg.jpeg",
+    "Price": "1.50",
+    "Cardimg": "images/8d233f20-79fc-4a95-aa98-134cf2183a1b.svg",
+    "Category": "Drinks"
+  }
+]

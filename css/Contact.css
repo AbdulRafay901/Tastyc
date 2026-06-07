@@ -1,0 +1,186 @@
+
+.s2-bgs{
+    z-index: 2;
+}
+.s2-bgs .bg1{
+    height: 101.5%;
+}
+
+#s3-row{
+    margin: 0;
+}
+.C-s2-text.text2 p{
+    margin: 0;
+}
+.dot-line{
+    margin: 30px 0 40px 0;
+}
+.A-s1-text .text1{
+    flex-direction: row;
+    justify-content: center;
+}
+.A-s1-text .text2{
+    
+    text-align: start;
+}
+.A-s1-text .text1 p,
+.A-s1-text .text1 .line{
+    margin: 0;
+}
+
+.A-s1-text{
+    width: 100%;
+    align-items: start;
+    background-image: none;
+    position: absolute;
+    z-index: 2;
+    background: linear-gradient(270deg, rgba(1, 5, 6, 0.793) 0%, rgba(2, 16, 18, 0.917) 70%);
+    position: relative;
+}
+.A-s1-text-js{
+    pointer-events: none;
+}
+
+.map-btn{
+    z-index: 5;
+    position: absolute;
+    right: 3%;
+    top: 25%;
+}
+.map-btn button{
+    background-color: rgba(255, 255, 255, 0.501);
+    border-radius: 50%;
+    padding: 5px 8px;
+    border: none;
+    transition: 0.5s ease;
+}
+.map-btn-js{
+    background-color: rgb(243, 156, 18) !important;
+}
+#unlock-icon{
+    display: none;
+}
+.unlock-js{
+    display: block !important;
+}
+.lock-js{
+    display: none !important;
+}
+.s1-content{
+    background-image: none;
+    position: relative;
+    width: 100%;
+    
+}
+.map{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+.map iframe{
+    background: linear-gradient(270deg, rgba(4, 25, 29, .1) 0%, rgba(4, 25, 29, .8) 80%);
+}
+
+
+.A-s1-text .text1,
+.A-s1-text .text2,
+.A-s1-text .gray-buttons{
+    padding: 0 80px;
+}
+.A-s1-text .gray-buttons .gray{
+    width: 190px;
+}
+
+.C-s3-container{
+    padding: 0 0 60px 0;
+    display: flex;
+    justify-content: center;
+}
+.C-s3-content{
+    width: 92.5%;
+}
+.inputs{
+    margin-top: 30px;
+}
+.inputs .name-email input,
+.inputs .msg textarea{
+    border: none;
+    outline: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px 20px;
+    width: 49%;
+    margin: 15px 0;
+}
+.inputs .msg textarea{
+    width: 100%;
+    height: 180px;
+}
+.inputs .name-email{    
+    display: flex;
+    justify-content: space-between;
+}
+.inputs .name-email input::placeholder,
+.inputs .msg textarea::placeholder{
+    color: black;
+    font-family: 'Josefin Sans',sans-serif;
+}
+.inputs .button{
+    display: flex;
+    justify-content: center;
+}
+
+[data-aos="fade-left"] {
+  transform: translateX(400px) !important; /* default ~100px hota hai */
+}
+[data-aos="fade-left"].aos-animate {
+  transform: translateX(0) !important;
+}
+
+@media only screen and (max-width: 992px){
+    .s2-bgs .bg1{
+        height: 101% !important;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .s1-container{
+        height: 680px;
+    }
+    .s1-content{
+        background-color: aqua;
+        height: 100%;
+    }
+    .A-s1-text{
+        padding: 260px 0 0 0;
+    }
+    
+    .inputs .name-email{
+        flex-direction: column;
+    }
+    .inputs .name-email input{
+        width: 100%;
+    }
+    .A-s1-text{
+        align-items: center;
+    }
+    .A-s1-text .text1,
+    .A-s1-text .text2{
+        padding: 0;
+    }
+    .A-s1-text .text1{
+        flex-direction: column;
+    }
+    .A-s1-text .text1 p{
+        font-size: 12px !important;
+    }
+    .A-s1-text .text2{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .A-s1-text .text2 h1{
+        font-size: 40px !important;
+    }
+}
