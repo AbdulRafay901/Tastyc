@@ -12,7 +12,7 @@ A modern and fully responsive restaurant website built with HTML, CSS, Bootstrap
 
 ## 🌐 Live Demo
 
-🔗 **Live Demo:** [Add Live Link Here]
+🔗 **Live Demo:** https://tastycs.netlify.app/
 
 ## 📸 Preview
 
