@@ -46,16 +46,27 @@ A modern and fully responsive restaurant website built with HTML, CSS, Bootstrap
 ```text
 Tastyc/
 │
+├── About-images/
+├── Menu-images/
 ├── css/
-├── js/
 ├── images/
 │
 ├── index.html
 ├── About.html
 ├── Menu.html
 ├── Gallery.html
-├── Blog.html
-├── Contact.html
+├── blog.html
+├── contact.html
+├── shop.html
+│
+├── script.js
+├── About.js
+├── Menu.js
+├── Gallery.js
+├── Contact.js
+├── Shop.js
+│
+├── Menu.json
 └── README.md
 ```
 
